@@ -3,7 +3,7 @@ Gungnir is a distributed async RL system built around stateless rollout workers,
 
 Built to run on a single consumer GPU while being architecturally honest about what scale-out looks like.
 
-Architecture
+Architecture```
 ┌──────────────────────────────────────────────────────┐
 │                     driver.py                        │
 │              (orchestrates the full loop)            │
@@ -24,7 +24,7 @@ Architecture
 │  mujoco_env     │
 │  pusht_env      │
 │  llm_env        │
-└─────────────────┘
+└─────────────────┘```
 Algorithms
 PPO with GAE advantage estimation and KL penalty
 GRPO (Group Relative Policy Optimization)
