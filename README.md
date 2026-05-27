@@ -1,7 +1,7 @@
 # Gungir
-Gungnir is a distributed async RL system built around stateless rollout workers, a centralized inference server, and a decoupled learner. The environment is a plugin — swap in a MuJoCo locomotion task, a manipulation env, or an LLM generating tokens against a reward model. Same architecture, same algorithms, different domain.
+Gungnir is a distributed async RL system built around stateless rollout workers, a centralized inference server, and a decoupled learner. The environment is a plugin, swap in a MuJoCo locomotion task, a manipulation env, or an LLM generating tokens against a reward model. Same architecture, same algorithms, different domain.
 
-Built to run on a single consumer GPU while being architecturally honest about what scale-out looks like.
+Built to run on a single consumer GPU while being architecturally honest and sound
 
 ## Algorithms
 - PPO with GAE advantage estimation and KL penalty
